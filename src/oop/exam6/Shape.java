@@ -1,7 +1,6 @@
 package oop.exam6;
 
-public class Shape {
-	String name = "도형";
+public abstract class Shape {
 	double res;
-	public void area(){}
+	public abstract void area();
 }

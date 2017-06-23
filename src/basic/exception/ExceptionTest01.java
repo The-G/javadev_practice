@@ -9,7 +9,7 @@ public class ExceptionTest01 {
 			// throw new NullPointerExcepition();
 		} catch (NullPointerException | NumberFormatException e) {
 			// TODO: handle exception
-			System.out.println("인스턴스가 할당이 안됐음");
+			System.out.println("인스턴스가 할당이 안됐음..ㅜ : " +  e.getMessage());
 //			e.printStackTrace();
 			// "종료"가 먼저 찍히고 예외처리 하는 경우도 있다. 먼저 처리되고 그런게 아니라 thread로 처리하기 때문에 순서가 달라질 때도 있다!!
 
